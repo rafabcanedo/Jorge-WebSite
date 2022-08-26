@@ -2,6 +2,7 @@ import React from 'react';
 import GlobalStyles from './styles/GlobalStyles';
 
 // import Pages
+import Header from './components/Navigation/Header';
 import Home from './components/Pages/Home/Home';
 import Sobre from './components/Pages/Sobre/Sobre';
 import Feedback from './components/Pages/Feedback/Feedback';
@@ -13,6 +14,7 @@ function App() {
  return (
   <>
   <GlobalStyles />
+   <Header />
    <Home />
    <Sobre />
    <Projetos />
@@ -23,4 +25,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

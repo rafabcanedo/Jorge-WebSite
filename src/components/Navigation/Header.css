@@ -1,0 +1,25 @@
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+.header-main {
+ background-color: #edf0f1;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 30px 2%;
+ height: 100px;
+}
+
+li {
+ font-family: "Sora", sans-serif;
+ font-weight: 500;
+ font-size: 16px;
+ text-decoration: none;
+}
+
+.nav-list {
+ list-style: none;
+}

@@ -1,0 +1,54 @@
+.comunidade-title {
+ text-align:center;
+ font-family: "Poppins", sans-serif;
+ color: #3c3e41;
+ font-size: 25px;
+}
+
+.comunidade-title h2 {
+ font-size: 20px;
+}
+
+.sub-text {
+ color: #a19d9d;
+}
+
+.comunidade-text {
+ align-items: center;
+}
+
+.btn_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+}
+
+.btn_link{
+    padding: 18px 25px;
+    border-radius: 6px;
+    transition: 0.3s all ease;
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+}
+.btn_link {
+    background: linear-gradient(145deg, #010326, #fdfdfd);
+    box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #fdfdfd;
+}
+.btn_link:hover {
+    background: #040733;
+    color: #eaf205;
+    transform: translateY(-10px);
+}
+.btn_link {
+    background: linear-gradient(145deg, #010326, #010326);
+    box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #fdfdfd;
+    border-radius: 10px;
+}
+
+.video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

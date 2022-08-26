@@ -1,0 +1,24 @@
+.sobre-title {
+ text-align: center;
+ font-family: "Poppins", sans-serif;
+ color: #3c3e41;
+ font-size: 25px;
+}
+
+.text-title {
+ align-items: center;
+ font-size: 28;
+ color: #3c3e41;
+ text-decoration: underline;
+}
+
+.text-history {
+ align-items: center;
+ max-width: 500px;
+ margin: 0 auto;
+ font-size: 1.5rem;
+ line-height: 1.3em;
+ @media only screen and (max-width: 768px) {
+  font-size: 1.4rem;
+ }
+}

@@ -10,11 +10,14 @@
   },
   "dependencies": {
     "@fontsource/jua": "^4.5.10",
+    "@fontsource/poppins": "^4.5.9",
     "@fontsource/sora": "^4.5.9",
     "phosphor-react": "^1.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "styled-components": "^5.3.5"
+    "react-player": "^2.10.1",
+    "styled-components": "^5.3.5",
+    "swiper": "^8.3.2"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",

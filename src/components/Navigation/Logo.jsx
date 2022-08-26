@@ -1,17 +1,18 @@
 import React from 'react';
 import styled from 'styled-components';
+import Image from '../../assets/images/logo.png';
 
-const LogoText = styled.h1`
- font-family: 'Jua', sans-serif;
- font-size: 2rem;
+const Img = styled.img`
+ cursor: pointer;
+ &:hover {
+     transform: scale(1.1);
+ }
 `;
 
 const Logo = () => {
-    return(
-     <LogoText>
-       Canedo.
-     </LogoText>
-    );
+ return (
+  <Img src={Image} alt='LogoNav' />
+ );
 }
 
 export default Logo;

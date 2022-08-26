@@ -1,6 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 import "@fontsource/jua";
 import "@fontsource/sora";
+import "@fontsource/poppins";
 
 const GlobalStyles = createGlobalStyle`
 * {
